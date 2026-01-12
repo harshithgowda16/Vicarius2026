@@ -1,1 +1,33 @@
-
+[
+ {
+    "Name": "vicarius2026",
+    "Language": "English",
+    "BaseURL": "https://github.com/CloudLabsAI-Azure/Paessler/tree/main/Labs/CustomLab2",
+    "Files": [
+     {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/paessler/main/Labs/CustomLab2/Introduction%20to%20monitoring%20with%20Paessler%20PRTG/Gettingstarted.md",
+        "Order": 1
+     },
+     {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/paessler/main/Labs/CustomLab2/Introduction%20to%20monitoring%20with%20Paessler%20PRTG/Introduction.md",
+        "Order": 2
+     },     
+     {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/paessler/main/Labs/CustomLab2/Introduction%20to%20monitoring%20with%20Paessler%20PRTG/Lab1.md",
+        "Order": 3
+     },
+     {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/paessler/main/Labs/CustomLab2/Introduction%20to%20monitoring%20with%20Paessler%20PRTG/Lab2.md",
+        "Order": 4
+     },
+     {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Paessler/main/Labs/CustomLab2/Introduction%20to%20monitoring%20with%20Paessler%20PRTG/Lab3.md",
+        "Order": 5
+     },
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Paessler/main/Labs/CustomLab2/Introduction%20to%20monitoring%20with%20Paessler%20PRTG/Lab4.md",
+        "Order": 6
+     }
+    ] 
+  }
+]  
