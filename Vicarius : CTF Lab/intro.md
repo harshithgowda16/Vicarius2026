@@ -22,66 +22,96 @@ The training emphasizes the full **Purple Team lifecycle**:
 
 ## Hands-on Lab Overview
 
-### Lab 1: Windows Server – Exploitation & Mitigation
+---
 
-#### Objective
+## Lab 1: Windows Server – Exploitation & Mitigation
+
+### Objective
 Exploit a vulnerable Windows Server, escalate privileges, retrieve flags, and remediate vulnerabilities using Vicarius vRx.
+
+---
+
+### Exploitation Phase
 
 #### Key Activities
 - Network enumeration using Nmap
 - Exploiting Rejetto HFS (CVE-2024-23692)
 - Gaining initial shell access via Metasploit
 - Privilege escalation using a misconfigured scheduled task
-- Retrieving:
-  - User Flag
-  - Administrator Flag
+
+#### Artifacts Retrieved
+- User Flag
+- Administrator Flag
+
+---
+
+### Mitigation Phase
+
+#### Key Activities
 - Detecting vulnerabilities using vRx detection scripts
 - Remediating:
   - Vulnerable HFS service
   - Misconfigured scheduled task
 
 #### Artifacts Collected
-- User Flag
-- Administrator Flag
 - Detection Output (HFS + Scheduled Task)
 - Mitigation Output (HFS + Scheduled Task)
 
 ---
 
-### Lab 2: Ubuntu 24 – Exploitation & Mitigation
+## Lab 2: Ubuntu 24 – Exploitation & Mitigation
 
-#### Objective
+### Objective
 Exploit a vulnerable Linux system, gain root access, retrieve flags, and remediate vulnerabilities using Vicarius vRx.
+
+---
+
+### Exploitation Phase
 
 #### Key Activities
 - Network enumeration using Nmap
 - Identifying vulnerable Erlang SSH service
 - Exploiting CVE-2025-32433 to gain shell access
 - Privilege escalation via misconfigured sudo permissions
-- Retrieving:
-  - User Flag
-  - Root Flag
+
+#### Artifacts Retrieved
+- User Flag
+- Root Flag
+
+---
+
+### Mitigation Phase
+
+#### Key Activities
 - Detecting vulnerabilities using vRx Linux scripts
 - Remediating:
   - Erlang vulnerability
   - Risky sudo NOPASSWD configuration
 
 #### Artifacts Collected
-- User Flag
-- Root Flag
 - Detection Output (Erlang + Sudo)
 - Mitigation Output (Erlang + Sudo)
 
 ---
 
-### Lab 3: Extra Challenge – KeePass Exploitation & Patchless Protection
+## Lab 3: Extra Challenge – KeePass Exploitation & Patchless Protection
 
-#### Objective
+### Objective
 Exploit a memory-based KeePass vulnerability and protect the application using Vicarius Patchless Protection.
+
+---
+
+### Exploitation Phase
 
 #### Key Activities
 - Exploiting KeePass (CVE-2023-32784) to retrieve the master password
 - Memory dump analysis using provided tooling
+
+---
+
+### Mitigation Phase
+
+#### Key Activities
 - Enabling Patchless Protection via Vicarius dashboard
 - Verifying protection through logs and event viewer
 
